@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save is-scoped
+$ npm install is-scoped
 ```
 
 

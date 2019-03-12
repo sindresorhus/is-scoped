@@ -30,7 +30,7 @@
 		"validation"
 	],
 	"dependencies": {
-		"scoped-regex": "^1.0.0"
+		"scoped-regex": "^2.0.0"
 	},
 	"devDependencies": {
 		"ava": "^1.3.1",

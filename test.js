@@ -19,7 +19,7 @@ const nonMatches = [
 	'@foo89/_bar'
 ];
 
-test('isScoped', t => {
+test('main', t => {
 	for (const match of matches) {
 		t.true(isScoped(match));
 	}
