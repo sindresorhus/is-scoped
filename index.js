@@ -1,4 +1,7 @@
 'use strict';
 const scopedRegex = require('scoped-regex');
 
-module.exports = input => scopedRegex({exact: true}).test(input);
+const isScoped = input => scopedRegex({exact: true}).test(input);
+
+module.exports = isScoped;
+module.exports.default = isScoped;

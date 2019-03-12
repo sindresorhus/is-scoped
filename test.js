@@ -1,5 +1,5 @@
 import test from 'ava';
-import m from '.';
+import isScoped from '.';
 
 const matches = [
 	'@sindresorhus/df',
@@ -19,12 +19,12 @@ const nonMatches = [
 	'@foo89/_bar'
 ];
 
-test(t => {
-	for (const x of matches) {
-		t.true(m(x));
+test('isScoped', t => {
+	for (const match of matches) {
+		t.true(isScoped(match));
 	}
 
-	for (const x of nonMatches) {
-		t.false(m(x));
+	for (const nonMatch of nonMatches) {
+		t.false(isScoped(nonMatch));
 	}
 });
