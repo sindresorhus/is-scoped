@@ -1,4 +1,4 @@
-import {expectType} from 'tsd-check';
-import isScoped from '.';
+import {expectType} from 'tsd';
+import isScoped = require('.');
 
 expectType<boolean>(isScoped('is-scoped'));
