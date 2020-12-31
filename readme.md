@@ -1,4 +1,4 @@
-# is-scoped [![Build Status](https://travis-ci.org/sindresorhus/is-scoped.svg?branch=master)](https://travis-ci.org/sindresorhus/is-scoped)
+# is-scoped
 
 > Check if a string is a [scoped npm package name](https://docs.npmjs.com/misc/scope)
 
