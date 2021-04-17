@@ -1,8 +1,5 @@
-'use strict';
-const scopedRegex = require('scoped-regex');
+import scopedRegex from 'scoped-regex';
 
-const isScoped = input => scopedRegex({exact: true}).test(input);
-
-module.exports = isScoped;
-// TODO: Remove this for the next major release
-module.exports.default = isScoped;
+export default function isScoped(string) {
+	return scopedRegex({exact: true}).test(string);
+}

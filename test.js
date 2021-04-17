@@ -1,5 +1,5 @@
 import test from 'ava';
-import isScoped from '.';
+import isScoped from './index.js';
 
 const matches = [
 	'@sindresorhus/df',
